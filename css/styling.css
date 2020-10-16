@@ -1,0 +1,109 @@
+body{
+	background-image:url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700411453.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+h1{
+	text-align:center;
+	background-color:#98FB98;
+	padding:15px;
+	font-family:sans-serif;
+	border: 2px solid;
+	border-radius: 25px;
+	
+	
+}
+h2{
+	text-align:center;
+	background-color:#abacfe;;
+	padding:15px;
+	font-family:sans-serif;
+	border: 2px solid;
+	border-radius: 25px;
+}
+
+.fullscreen{
+	width=100%;
+
+}
+
+.halfscreen{
+	width:50%;
+
+
+}
+
+.article-box{
+	background-color:#98FB98;
+	
+	padding:10px;
+	border: 2px solid;
+	margin: 30px;
+	
+
+	
+}
+.art-title{
+	text-align:center;
+	font-family:sans-serif;
+	background-color:#abacfe;
+	float:right;
+	font-size:20px;
+	border:1px solid;
+	padding:5px;
+	font-weight:bold;
+	
+}
+
+.art-content{
+	clear:both;
+	font-family:arial;
+	
+}
+
+@media (min-width: 992px){
+	.row{
+		width=100%;
+		
+	}
+	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+		float:left;
+	}
+	.col-lg-1 {width: 8.33%;}
+	.col-lg-2 {width: 16.66%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-4 {width: 33%;}
+	.col-lg-5 {width: 41.66%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-7 {width: 58.33%;}
+	.col-lg-8 {width: 66.66%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-10 {width: 83.33%;}
+	.col-lg-11 {width: 91.66%;}
+	.col-lg-12 {width: 100%;}
+}
+@media (min-width: 768px) and (max-width:991px){
+	.row{
+		width=100%;	
+	}
+	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+		float:left;
+	}
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+}
+
+
